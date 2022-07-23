@@ -10,54 +10,54 @@
     <body>
         <h1 id="title">Programmer Survey Form</h1>
         <p id="description">Thank you for your participation, keep coding and don't forget to sleep</p>
+        <form action="#" id="survey-form">
+            <fieldset>
+                <label for="name-label">Name<input type="text" name="name-label" id="name" placeholder="Enter your name" required /></label>
+                <label for="email-label">Email<input type="email" name="email-label" id="email" placeholder="Enter your email" required /></label>
+                <label for="number-label">Age(optional)<input type="number" name="number-label" id="age" placeholder="Age" min="1" max="100" /></label>
+                <label
+                    >Which option best describes your current role?
+                    <select name="role">
+                        <option value="">Select current role</option>
+                        <option value="1">Student</option>
+                        <option value="2">Full Time Job</option>
+                        <option value="3">Full Time learner</option>
+                        <option value="4">Prefer not to say</option>
+                        <option value="5">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>What do you want to be?</label>
+                <label><input type="radio" name="account-type" class="inline" /> Android Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> iOS Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> Multi-Platform App Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> Machine Learning Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> Front-End Web Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> Back-End Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> React Developer</label>
+                <label><input type="radio" name="account-type" class="inline" /> DevOps Engineer</label>
+                <label><input type="radio" name="account-type" class="inline" /> Other</label>
+            </fieldset>
+            <fieldset>
+                <label>What programming language are you interested in? (Check all that apply)</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> Python</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> JavaScript</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> Java</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> C#</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> C</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> C++</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> Go</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> R</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> Swift</label>
+                <label> <input type="checkbox" name="terms" class="inline" /> PHP</label>
+            </fieldset>
+            <fieldset>
+                <label
+                    >Any comments or suggestions?
+                    <textarea name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+                </label>
+            </fieldset>
+        </form>
     </body>
-    <form action="#" id="survey-form">
-        <fieldset>
-            <label for="name-label">Name<input type="text" name="name-label" id="name" placeholder="Enter your name" required /></label>
-            <label for="email-label">Email<input type="email" name="email-label" id="email" placeholder="Enter your email" required /></label>
-            <label for="number-label">Age(optional)<input type="number" name="number-label" id="age" placeholder="Age" min="1" max="100" /></label>
-            <label
-                >Which option best describes your current role?
-                <select name="role">
-                    <option value="">Select current role</option>
-                    <option value="1">Student</option>
-                    <option value="2">Full Time Job</option>
-                    <option value="3">Full Time learner</option>
-                    <option value="4">Prefer not to say</option>
-                    <option value="5">Other</option>
-                </select>
-            </label>
-        </fieldset>
-        <fieldset>
-            <label>What do you want to be?</label>
-            <label><input type="radio" name="account-type" class="inline" /> Android Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> iOS Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> Multi-Platform App Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> Machine Learning Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> Front-End Web Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> Back-End Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> React Developer</label>
-            <label><input type="radio" name="account-type" class="inline" /> DevOps Engineer</label>
-            <label><input type="radio" name="account-type" class="inline" /> Other</label>
-        </fieldset>
-        <fieldset>
-            <label>What programming language are you interested in? (Check all that apply)</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> Python</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> JavaScript</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> Java</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> C#</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> C</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> C++</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> Go</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> R</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> Swift</label>
-            <label> <input type="checkbox" name="terms" class="inline" /> PHP</label>
-        </fieldset>
-        <fieldset>
-            <label
-                >Any comments or suggestions?
-                <textarea name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
-            </label>
-        </fieldset>
-    </form>
 </html>
